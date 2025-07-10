@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+   background: #020410;
+}
+
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   
+    
+}
+
+.navbar a{
+    color: #f6f6f6 ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.search_bar{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 363px;
+}
+
+.search_bar i{
+    color: #333;
+    width: 100%;
+}
+
+.search{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: transparent;
+    display: flex;
+    position: relative;
+    right: 100px;
+  
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    background: url(./image/3042-2560x1440-desktop-hd-bmw-background-photo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    background-color: transparent;
+    
+}
+
+.container .box{
+    
+    height: 97%;
+    width: 60%;
+    display: flex;
+    position: absolute;
+    left: 734px;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #34353b;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #e4e4e4;
+
+}
+    
+.image{
+    width: 53px;
+    margin-top: -31px;
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    top: 11px;
+    margin-left: 29px;
+    margin-right: 15px;
+    vertical-align: middle; 
+}
+
+.text .heading{
+   color: white;
+   padding: 80px;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 145px;
+   
+}
+
+.para-graph .para{
+    color: white;
+    padding: 80px;
+    display: flex;
+    position: absolute;
+    top: 260px;
+}
+
+
+.text .heading{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.para-graph .para {
+  font-family:"Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.heading {
+    display: flex;
+    padding-left: 84px;
+    position: relative;
+    top: 90px;
+    color: #eee7e7;
+}
+
+.box h2{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    right: 167px;
+    font-size: 30px;
+    color: #f6f6f6;
+}
+
+.box .input-box{ 
+    position: relative;
+    width: 329px;
+    height: 50px;
+    border-bottom: 2px solid #e4e4e4;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 164%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #e4e4e4;
+    font-weight: 500;
+    padding-right: 28px;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+
+.input-box .icon{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-size: 15px;
+}
+ 
+.remember-forgot{
+    font-size: 14px;
+    font-weight: 500;
+    margin: -9px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-forgot input {
+    position: relative;
+    top: 2px;
+}
+
+.remember-forgot a{
+    color: #e4e4e4;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #c4103d;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.login-register p {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.login-register p a{
+    text-decoration: none;
+    color: #e4e4e4;
+    font-weight: 500;
+}
+
+.login-register a:hover{
+    text-decoration: underline;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background: url(./image/3042-2560x1440-desktop-hd-bmw-background-photo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+
+}
+
+
+
+
+
+
+
+
+
